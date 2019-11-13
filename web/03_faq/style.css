@@ -18,21 +18,12 @@ main {
     margin: 2rem;
 }
  
-#btn-borrar {
-    color: blue;
-}
+h2 {
+    cursor: pointer;
+    border: 1px solid brown;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
 
-#btn-prueba {
-    color: crimson;
-}
-
-.image {
-    margin: 1rem;
-}
-
-img {
-    max-width: 100%;
-    margin: 1rem;
 }
 
 footer {
