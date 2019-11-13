@@ -6,13 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curso de JS</title>
     <link rel="stylesheet" href="./style.css">
-    <script>
-        console.log('Hola desde el HTML')
-    </script>
-    <!-- <script src="./app.js" type="module"></script> -->
-    <script src="./old.js"></script>
+    <script src="./app.js" type="module"></script>
 </head>
 <body>
+    
     <header>
         <h1>
             Hola Mundo
@@ -23,8 +20,8 @@
             <h2 title="El texto es solo es una prueba">
                 Introduccion
             </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus odit voluptatum quis aperiam iure molestias inventore cum, delectus rem quia optio dolore doloribus illum eveniet nostrum fuga itaque minima!</p>
-            <p>Nostrum ducimus quasi iste natus sunt mollitia tenetur dolorem, sed, repellat esse numquam laboriosam est nesciunt temporibus cupiditate voluptates dolores tempore totam. Id, distinctio ex nemo in rerum saepe tenetur.</p>
+            <p id="p01" class="importante">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus odit voluptatum quis aperiam iure molestias inventore cum, delectus rem quia optio dolore doloribus illum eveniet nostrum fuga itaque minima!</p>
+            <p id="p02" class="importante especial">Nostrum ducimus quasi iste natus sunt mollitia tenetur dolorem, sed, repellat esse numquam laboriosam est nesciunt temporibus cupiditate voluptates dolores tempore totam. Id, distinctio ex nemo in rerum saepe tenetur.</p>
             <p>Adipisci, ex vel, cumque voluptatum architecto minima consequuntur porro incidunt molestias ullam atque amet, iusto saepe? Porro quia omnis odit corporis doloremque nulla dignissimos! Ipsa reprehenderit labore aperiam cum officia!</p>
             <p>Deserunt ipsa ipsum cumque, nemo facere tempore expedita harum fugiat atque dignissimos eveniet dolores, facilis similique modi ullam non nam repellendus praesentium iure? Quis, dolor dicta magni sunt iure maiores!</p>
             <p>Dolor repellat beatae pariatur blanditiis. Dolor eligendi maxime at non perferendis ducimus impedit id vitae, odit recusandae perspiciatis vero corporis mollitia debitis fugit, obcaecati qui, esse sed porro? Aperiam, ad!</p>
@@ -32,9 +29,14 @@
         </section>
         <section>
             <h2>Saludo</h2>
-            <input type="text" name="" id="" placeholder="Dime tu nombre">
-            <button type="button" title="Pulsa para borrar" onclick="onButtonClick()"
-            >Borrar</button>
+            <input type="text" name="" id="in-nombre" placeholder="Dime tu nombre">
+            <button id="btn-borrar" type="button" title="Pulsa para borrar">Borrar</button>
+            <p>Hola <span id="output"></span></p>
+        </section>
+        <section class="image">
+            <img src="./assets/komodo.jpg" 
+                alt="Dragon de Komodo" id = 'img-prueba'>
+            <button id="btn-prueba" type="button" title="No Pulsar">Prueba</button>
         </section>
     </main>
     <footer>

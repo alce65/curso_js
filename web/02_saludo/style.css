@@ -1,0 +1,43 @@
+body {
+    margin: 0rem;
+    background-color: bisque;
+}
+
+header {
+    background-color: brown;
+    color: bisque;
+}
+
+header h1 {
+    margin: 0rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    margin: 2rem;
+}
+ 
+#btn-borrar {
+    color: blue;
+}
+
+#btn-prueba {
+    color: crimson;
+}
+
+.image {
+    margin: 1rem;
+}
+
+img {
+    max-width: 100%;
+    margin: 1rem;
+}
+
+footer {
+    background-color: brown;
+    color: bisque;   
+    padding: 1rem;
+    text-align: center;
+}
