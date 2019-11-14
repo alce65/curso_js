@@ -42,7 +42,6 @@ export function app() {
         botones.forEach( item => 
             item.addEventListener('click', borrar)
             )
-
     }
 
     function borrar(ev) {
