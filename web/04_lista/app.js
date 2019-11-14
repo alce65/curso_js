@@ -6,7 +6,7 @@ export function app() {
 
     const inAnimal = document.querySelector('#in-animal')
     const output = document.querySelector('#output')
-    
+
     // Definir manejadores de eventos
 
     /* inAnimal.addEventListener('focus', onAnimal)
